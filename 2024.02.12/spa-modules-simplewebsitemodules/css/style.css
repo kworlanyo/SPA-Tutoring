@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    gap: 2em;
+    min-height: 100dvh;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+div {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+@media (max-width:512px) {
+    main {
+        display: block;
+    }
+}
+
+
+input {
+    width: 5em;
+    text-align: center;
+    border-radius: 5px;
+}
+
+input:invalid {
+    background-color: ivory;
+    border-color: red;
+}
+
+input:read-only {
+    background-color: #eee;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+#output {
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+    width: 80dvw;
+    padding: .5em;
+    font-size: 6vw;
+}

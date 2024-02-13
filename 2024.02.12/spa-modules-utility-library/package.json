@@ -1,0 +1,13 @@
+{
+  "name": "spa-modules-utility-library",
+  "version": "1.0.0",
+  "description": "Create a collection of JavaScript utility functions to perform simple tasks. You'll learn to organize your codebase using ES6 modules in Node.js, allowing for efficient code organization, reusability, and maintainability.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
