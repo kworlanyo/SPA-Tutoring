@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #503815;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 4rem;
+  padding: 0 5rem 5rem;
+}
+
+.error {
+  color: white;
+  font-size: 2rem;
+}
+
+input {
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  outline-color: #e69834;
+  font-size: 2rem;
+}
+
+button {
+  padding: 1rem;
+  background-color: #e69834;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+#pokemon-statistics {
+  width: 60%;
+  max-width: 300px;
+  background-color: #F6D26D;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  gap: 2rem;
+  display: none;
+}
+
+#name {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+#stats {
+  width: 100%;
+}
+
+/* This class is used in the css */
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#abilitiesDiv {
+  width: 100%;
+}
