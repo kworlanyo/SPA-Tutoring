@@ -29,7 +29,7 @@ form.addEventListener("submit", (e) => {
         }
       })
       .then((data) => {
-        // After parsing the data into javascript code, we can now use it here.
+        // After parsing the data into javascript code, we can now use it here in this then function.
         pokemonStatistics.style.display = "flex"; // in the css, the display of the pokemonStatistics element is set to "none" when the page reloads. We set it back to flex here when the form is submitted.
         nameOfPokemon.textContent = data.name.toUpperCase(); // we give the value of the name property of the data to the nameOfPokemon element.
         pokemonImage.src = data.sprites.front_default; // we give the value of the data.sprites.front_default property to src attribute of the pokemonImage element.
