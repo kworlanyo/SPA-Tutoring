@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Local Storage</title>
+  </head>
+  <body>
+    <h1>Add a Web Developer in the table</h1>
+    <br />
+    <form id="form">
+      <label for="firstName">First Name</label>
+      <input
+        type="text"
+        id="firstName"
+        name="firstName"
+        placeholder="Your first name.."
+      />
+      <label for="lastName">Last Name</label>
+      <input
+        type="text"
+        id="lastName"
+        name="lastName"
+        placeholder="Your last name.."
+      />
+      <label for="programmingLanguage">Programming Language</label>
+      <select id="programmingLanguage" name="programmingLanguage">
+        <option value="javascript">Javascript</option>
+        <option value="phyton">Phyton</option>
+        <option value="java">Java</option>
+      </select>
+      <button id="send" type="submit">Add Web Developer</button>
+      <button id="reset">Delete Web Developers</button>
+    </form>
+    <h2>Web Developers Table</h2>
+    <br />
+    <table>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Programming Language</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <script src="index.js"></script>
+  </body>
+</html>
