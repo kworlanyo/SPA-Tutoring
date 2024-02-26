@@ -1,0 +1,15 @@
+# Oh hey! Nice of you to read this file :)
+# This is kind of a special way of making .gitignore
+# Line 7 tells git "ignore EVERYTHING, all files"
+# Line 8 tells git "except README.md, don't ignore that one"
+# Line 9 tells git "except .gitignore, don't ignore that one"
+# Whatever files are created, git only tracks the README.md and .gitignore
+
+*
+!README.md
+!.gitignore
+
+# Here's some obst und gemüse for reading this thing :)
+# 🍋🥝🍅🥔🍆🍈🥭🍋🍊🍐🍏🍇🍉🍌🍋
+
+# I included lemons 3 times, I really like lemons

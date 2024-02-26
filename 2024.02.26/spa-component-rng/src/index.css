@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.random-number {
+  padding: 0.6rem;
+  background-color: #E5E5FE;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 0.4rem;
+  font-weight: bold;
+}
