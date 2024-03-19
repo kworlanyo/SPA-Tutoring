@@ -107,7 +107,16 @@ function App() {
           });
         });
 
-        dispatch({ type: "updateUsers", payload: fetchedUsers }); // dispatch function with an action type is called here.
+        //* Per the exercise, we have to put the code below in a handler function called handleUpdateUsers. Although without the handler function, the code will still work, but putting it in a handler function will also make it work and then answer the question in the exercise.
+
+        // dispatch({ type: "updateUsers", payload: fetchedUsers }); // dispatch function with an action type is called here.
+
+        // Putting the dispatch in a handler function
+        function handleUpdateUsers() {
+          dispatch({ type: "updateUsers", payload: fetchedUsers });
+        }
+
+        handleUpdateUsers(); // We call the handler function
       })
       .catch((err) => {
         alert(err.message);
